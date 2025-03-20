@@ -1,0 +1,1671 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Ответы на форму (1) (Новая форма (Ответы))' inline='true' name='federated.0h8al220kskvum1698w8y141xps0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Новая форма (Ответы)' name='excel-direct.1gsksq61ur723o17k659q0t3ax5t'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/froge/OneDrive/Рабочий стол/Новая форма (Ответы).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1gsksq61ur723o17k659q0t3ax5t' name='Ответы на форму (1)' table='[&apos;Ответы на форму (1)$&apos;]' type='table'>
+          <columns gridOrigin='A1:M7:no:A1:M7:0' header='yes' outcome='2'>
+            <column datatype='datetime' name='Столбец 1' ordinal='0' />
+            <column datatype='string' name='Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?' ordinal='1' />
+            <column datatype='string' name='Насколько вы оцениваете работу нынешней системы?' ordinal='2' />
+            <column datatype='string' name='Какие основные причины накопления технического долга?' ordinal='3' />
+            <column datatype='string' name='Как технический долг влияет на работу компании?' ordinal='4' />
+            <column datatype='string' name='На каком из уровней, вы чаще всего встречали технический долг?' ordinal='5' />
+            <column datatype='string' name='Как часто технический долг приводит к сбоям в системе?' ordinal='6' />
+            <column datatype='string' name='Какие меры вы используете для предотвращения технического долга?' ordinal='7' />
+            <column datatype='integer' name='Насколько технический долг влияет на качество клиентского опыта?' ordinal='8' />
+            <column datatype='string' name='Как часто нужно производить работу по улучшению кода?' ordinal='9' />
+            <column datatype='string' name='Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?' ordinal='10' />
+            <column datatype='string' name='С каким трудностями вы сталкиваетесь при устранении технического долга ?' ordinal='11' />
+            <column datatype='string' name='Какие советы вы можете дать, чтобы минимизировать технический долг в работе с данными ?' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M7:no:A1:M7:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Столбец 1</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Столбец 1]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Столбец 1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Насколько вы оцениваете работу нынешней системы?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Насколько вы оцениваете работу нынешней системы?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Насколько вы оцениваете работу нынешней системы?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Какие основные причины накопления технического долга?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Какие основные причины накопления технического долга?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Какие основные причины накопления технического долга?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Как технический долг влияет на работу компании?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Как технический долг влияет на работу компании?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Как технический долг влияет на работу компании?</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>На каком из уровней, вы чаще всего встречали технический долг?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[На каком из уровней, вы чаще всего встречали технический долг?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>На каком из уровней, вы чаще всего встречали технический долг?</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Как часто технический долг приводит к сбоям в системе?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Как часто технический долг приводит к сбоям в системе?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Как часто технический долг приводит к сбоям в системе?</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Какие меры вы используете для предотвращения технического долга?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Какие меры вы используете для предотвращения технического долга?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Какие меры вы используете для предотвращения технического долга?</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Насколько технический долг влияет на качество клиентского опыта?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Насколько технический долг влияет на качество клиентского опыта?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Насколько технический долг влияет на качество клиентского опыта?</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Как часто нужно производить работу по улучшению кода?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Как часто нужно производить работу по улучшению кода?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Как часто нужно производить работу по улучшению кода?</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>С каким трудностями вы сталкиваетесь при устранении технического долга ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[С каким трудностями вы сталкиваетесь при устранении технического долга ?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>С каким трудностями вы сталкиваетесь при устранении технического долга ?</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Какие советы вы можете дать, чтобы минимизировать технический долг в работе с данными ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Какие советы вы можете дать, чтобы минимизировать технический долг в работе с данными ?]</local-name>
+            <parent-name>[Ответы на форму (1)]</parent-name>
+            <remote-alias>Какие советы вы можете дать, чтобы минимизировать технический долг в работе с данными ?</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LRU_RRU_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ответы на форму (1)' datatype='table' name='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/froge/OneDrive/Рабочий стол/Ответы на форму (1) (Новая форма (Ответы)).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/20/2025 07:25:31 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Ответы на форму (1) (Новая форма (Ответы))' increment-value='%null%' refresh-type='create' rows-inserted='6' timestamp-start='2025-03-20 19:25:31.336' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Столбец 1</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Столбец 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Столбец 1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Насколько вы оцениваете работу нынешней системы?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Насколько вы оцениваете работу нынешней системы?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Насколько вы оцениваете работу нынешней системы?</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Какие основные причины накопления технического долга?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Какие основные причины накопления технического долга?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Какие основные причины накопления технического долга?</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Как технический долг влияет на работу компании?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Как технический долг влияет на работу компании?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Как технический долг влияет на работу компании?</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>На каком из уровней, вы чаще всего встречали технический долг?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[На каком из уровней, вы чаще всего встречали технический долг?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>На каком из уровней, вы чаще всего встречали технический долг?</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Как часто технический долг приводит к сбоям в системе?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Как часто технический долг приводит к сбоям в системе?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Как часто технический долг приводит к сбоям в системе?</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Какие меры вы используете для предотвращения технического долга?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Какие меры вы используете для предотвращения технического долга?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Какие меры вы используете для предотвращения технического долга?</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Насколько технический долг влияет на качество клиентского опыта?</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Насколько технический долг влияет на качество клиентского опыта?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Насколько технический долг влияет на качество клиентского опыта?</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Как часто нужно производить работу по улучшению кода?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Как часто нужно производить работу по улучшению кода?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Как часто нужно производить работу по улучшению кода?</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>С каким трудностями вы сталкиваетесь при устранении технического долга ?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[С каким трудностями вы сталкиваетесь при устранении технического долга ?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>С каким трудностями вы сталкиваетесь при устранении технического долга ?</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Какие советы вы можете дать, чтобы минимизировать технический долг в работе с данными ?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Какие советы вы можете дать, чтобы минимизировать технический долг в работе с данными ?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Какие советы вы можете дать, чтобы минимизировать технический долг в работе с данными ?</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Ответы на форму (1)</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <object-id>[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Netherlands&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Ответы на форму (1)' id='Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4'>
+            <properties context=''>
+              <relation connection='excel-direct.1gsksq61ur723o17k659q0t3ax5t' name='Ответы на форму (1)' table='[&apos;Ответы на форму (1)$&apos;]' type='table'>
+                <columns gridOrigin='A1:M7:no:A1:M7:0' header='yes' outcome='2'>
+                  <column datatype='datetime' name='Столбец 1' ordinal='0' />
+                  <column datatype='string' name='Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?' ordinal='1' />
+                  <column datatype='string' name='Насколько вы оцениваете работу нынешней системы?' ordinal='2' />
+                  <column datatype='string' name='Какие основные причины накопления технического долга?' ordinal='3' />
+                  <column datatype='string' name='Как технический долг влияет на работу компании?' ordinal='4' />
+                  <column datatype='string' name='На каком из уровней, вы чаще всего встречали технический долг?' ordinal='5' />
+                  <column datatype='string' name='Как часто технический долг приводит к сбоям в системе?' ordinal='6' />
+                  <column datatype='string' name='Какие меры вы используете для предотвращения технического долга?' ordinal='7' />
+                  <column datatype='integer' name='Насколько технический долг влияет на качество клиентского опыта?' ordinal='8' />
+                  <column datatype='string' name='Как часто нужно производить работу по улучшению кода?' ordinal='9' />
+                  <column datatype='string' name='Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?' ordinal='10' />
+                  <column datatype='string' name='С каким трудностями вы сталкиваетесь при устранении технического долга ?' ordinal='11' />
+                  <column datatype='string' name='Какие советы вы можете дать, чтобы минимизировать технический долг в работе с данными ?' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ответы на форму (1) (Новая форма (Ответы))' name='federated.0h8al220kskvum1698w8y141xps0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0h8al220kskvum1698w8y141xps0'>
+            <column-instance column='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4:qk]' pivot='key' type='quantitative' />
+            <column caption='Ответы на форму (1)' datatype='table' name='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' role='measure' type='quantitative' />
+            <column-instance column='[Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?]' derivation='None' name='[none:Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f1ce63' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0h8al220kskvum1698w8y141xps0].[__tableau_internal_object_id__].[cnt:Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4:qk]</rows>
+        <cols>[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?:nk]</cols>
+      </table>
+      <simple-id uuid='{A9611085-7305-4A5C-B68E-7DF1050DE42F}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ответы на форму (1) (Новая форма (Ответы))' name='federated.0h8al220kskvum1698w8y141xps0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0h8al220kskvum1698w8y141xps0'>
+            <column-instance column='[Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?]' derivation='None' name='[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Какие меры вы используете для предотвращения технического долга?]' derivation='None' name='[none:Какие меры вы используете для предотвращения технического долга?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Столбец 1]' derivation='Year' name='[yr:Столбец 1:ok]' pivot='key' type='ordinal' />
+            <column datatype='string' name='[Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Какие меры вы используете для предотвращения технического долга?]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Столбец 1]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.0h8al220kskvum1698w8y141xps0].[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk] / [federated.0h8al220kskvum1698w8y141xps0].[none:Какие меры вы используете для предотвращения технического долга?:nk])</rows>
+        <cols>([federated.0h8al220kskvum1698w8y141xps0].[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk] / [federated.0h8al220kskvum1698w8y141xps0].[yr:Столбец 1:ok])</cols>
+      </table>
+      <simple-id uuid='{50E34E99-C07B-40C0-B055-95D0B2B33DFE}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ответы на форму (1) (Новая форма (Ответы))' name='federated.0h8al220kskvum1698w8y141xps0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0h8al220kskvum1698w8y141xps0'>
+            <column-instance column='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4:qk]' pivot='key' type='quantitative' />
+            <column caption='Ответы на форму (1)' datatype='table' name='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' role='measure' type='quantitative' />
+            <column-instance column='[Насколько вы оцениваете работу нынешней системы?]' derivation='None' name='[none:Насколько вы оцениваете работу нынешней системы?:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[Насколько вы оцениваете работу нынешней системы?]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько вы оцениваете работу нынешней системы?:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0h8al220kskvum1698w8y141xps0].[__tableau_internal_object_id__].[cnt:Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4:qk]</rows>
+        <cols>[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько вы оцениваете работу нынешней системы?:nk]</cols>
+      </table>
+      <simple-id uuid='{4D094B4A-1BD0-4748-AEA6-380C1A4C6B16}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ответы на форму (1) (Новая форма (Ответы))' name='federated.0h8al220kskvum1698w8y141xps0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0h8al220kskvum1698w8y141xps0'>
+            <column-instance column='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4:qk]' pivot='key' type='quantitative' />
+            <column caption='Ответы на форму (1)' datatype='table' name='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' role='measure' type='quantitative' />
+            <column-instance column='[Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?]' derivation='None' name='[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0h8al220kskvum1698w8y141xps0].[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0h8al220kskvum1698w8y141xps0].[__tableau_internal_object_id__].[cnt:Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4:qk]</rows>
+        <cols>[federated.0h8al220kskvum1698w8y141xps0].[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk]</cols>
+      </table>
+      <simple-id uuid='{50E2E139-2922-413F-BAF8-DEAD49CCE4A6}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ответы на форму (1) (Новая форма (Ответы))' name='federated.0h8al220kskvum1698w8y141xps0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0h8al220kskvum1698w8y141xps0'>
+            <column-instance column='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4:qk]' pivot='key' type='quantitative' />
+            <column caption='Ответы на форму (1)' datatype='table' name='[__tableau_internal_object_id__].[Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4]' role='measure' type='quantitative' />
+            <column-instance column='[На каком из уровней, вы чаще всего встречали технический долг?]' derivation='None' name='[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[На каком из уровней, вы чаще всего встречали технический долг?]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0h8al220kskvum1698w8y141xps0].[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0h8al220kskvum1698w8y141xps0].[__tableau_internal_object_id__].[cnt:Ответы на форму (1)_F4D930172B574DFD918B580B20CC57A4:qk]</rows>
+        <cols>[federated.0h8al220kskvum1698w8y141xps0].[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]</cols>
+      </table>
+      <simple-id uuid='{DF1B7EF8-C931-4F4A-9CF8-FAB487436CBB}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='49000' id='3' name='Sheet 1' w='41200' x='42000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='Sheet 3' w='41200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='11' name='Sheet 4' w='41200' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='12' name='Sheet 5' w='41200' x='42000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='8250' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8250' id='10' name='Sheet 3' pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько вы оцениваете работу нынешней системы?:nk]' type-v2='color' w='16000' x='83200' y='9250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10750' id='13' name='Sheet 5' pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]' type-v2='color' w='16000' x='83200' y='17500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='14' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Sheet 3' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8250' id='10' name='Sheet 3' pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько вы оцениваете работу нынешней системы?:nk]' type-v2='color' w='16000' x='83200' y='9250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='12' is-fixed='true' name='Sheet 5' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10750' id='13' name='Sheet 5' pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]' type-v2='color' w='16000' x='83200' y='17500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='11' is-fixed='true' name='Sheet 4' w='41200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Sheet 1' w='41200' x='42000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8250' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B8A49B8B-C787-4AC3-A296-B658D7A9BFDE}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Как технический долг влияет на работу компании?:nk]</field>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk]</field>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Как часто нужно производить работу по улучшению кода?:nk]</field>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]</field>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?:nk]</field>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько вы оцениваете работу нынешней системы?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2E3F3306-C874-4504-90E6-EDC3F924EC88}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Как технический долг влияет на работу компании?:nk]</field>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk]</field>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Какие меры вы используете для предотвращения технического долга?:nk]</field>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[yr:Столбец 1:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E3A40027-D91E-4168-931F-1EE08A19297C}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько вы оцениваете работу нынешней системы?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько вы оцениваете работу нынешней системы?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{48E32149-09D1-47CB-9428-1549CB88C099}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Как часто вы сталкиваетесь с техническим долгом в системах работы с данными?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{49213C89-DC67-4AE7-BD84-BCC431994916}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0h8al220kskvum1698w8y141xps0].[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0h8al220kskvum1698w8y141xps0].[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{419C2A6B-4C28-477D-9E88-15DB6EBBED8E}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько важно вести документацию о том, как устроены базы данных, ETL-процессы и обработка данных?:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0h8al220kskvum1698w8y141xps0].[none:Насколько вы оцениваете работу нынешней системы?:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 5'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0h8al220kskvum1698w8y141xps0].[none:На каком из уровней, вы чаще всего встречали технический долг?:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A8D24934-ABD8-4F9F-8C55-1F9A10FA8626}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      d+6LAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='169'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAACkCAYAAADBuSFLAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAcqklEQVR4nO2de1hU1frHPzkSEJYImICEiqakYiODZGDREQ2OJ7pYecGUvDQmlqVpYqcL
+      ahc0zdKimBTDjIJMPUIFpSWGHkIGp1BD80IIIxUI9gMZGcb5/TEzMCMXMSXo7PV5Hp7H2Zd1
+      Gfd3r3ftWe/+XmM0Go0IBBKlS0c3QCDoSIQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQA
+      BJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQA
+      BJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQA
+      BJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQA
+      BJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQA
+      BJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgaYQABJJGCEAgabpe
+      6oC8vLy/oh0CQYdwjdFoNHZ0IwSCjkKEQAJJIwQgkDRCAAJJIwQgkDRXIIATqCYEELOzcUv9
+      j29wb0AAAdYbBZegil2rn+CJddnUdnRTJMhVHAGq+XLDFzgP9r56RUqBKjWHb5zOJA5wQCjg
+      L+fqCUC7lU8rpzF71CV/WhBYUaXWYD9YjmI4qIUC/nKu0tVaT05iMj0e3oLH6fTGzSdUTJhw
+      AmVeHGOa+Vy1N44nXkyj8Ox57N2DiFq2DKW/M7CTmIAYGgMpH5SpqSh9oDgxkvHxRxvrGBNH
+      XtwY4De+eG4Oq7N+4ex5sO8+nClr1hA9rNvV6WK7UMvBw9cydJYMx/ODqUs9jCFIgQwALWmx
+      S0k/bTpS5uCG771zmBv6Kxtmq1BfVJLHPS8RG3EDR9MS2Zh5iDN6O1yGhDF9RgQDuwHaNFau
+      /C+9Zi0naqjMfFYRny1/k+96TeVNpQKqDrDpnQ/JLa5Bjx0uQx5g7txQvH5NI3ZpOqcvqlOh
+      TEDpkYZKrUAZ4QlAdfY6YpLtmR6vREERO15Zy1fm8py8g5jxVCRDu0HVgU2882EuxTV6sHNh
+      yANzmRvqhQxQq1SgVKIw16NWxaK9J5YIT1M/Wq4Pqo+mkbgxk0Nn9JYvhpdiI/C0NFpr25er
+      I4DqL/k4exSTY7pBYhvP0Saz4Jl8hq39Dx8EOlOV8TyTol/CY+dbRHQD64ve5jStFu8ZyWyN
+      HsgJ1QQmnGjc53X/K2x9yZfu9vWUf/IE4XGp3JM8g04blNWqUV8YjtIRcLyFgb+mozEoUFiu
+      T8/G/zydNo03Nx/h/0JDUSYkABddGECtWsWmolt5YtVcetvpKc1+n3eT1fxbqcARcA5SULPn
+      e2qHBuEIGA5+R9XgIJwrzPXZ9+SOqcuZ7O2EHXrOfB3PtoJQZsojiE2IwCTKdDxjGy9OtFb9
+      qc5m457+hMlLzBuuJ3Dqcv7p7YQdNRxPfZPdx2CoHOx73sHU5ZPxdrID/Rm+jt9GQehM5Jfz
+      /TWp7zhfJJegWLSGeS52gBpVrNb2HE/bvlwVAWi3fkplZBwju8KJJnt3EhMQYPV5jKntufv4
+      MSCStYFudAXcwpVMSJzA3hyIGNNSTdWUlVXjOdSzmX3XUq+JZ9qiXEpr6k2bfPypv4J+tTe1
+      ajXnh0bhCIAnCvmvpGsMKCwK0KazdLZpRL3BawxTFkTg3Ep5RzRaRjygpLcDgIzeIQ8w4ttM
+      jqAwXViOt3Gn0xa+qwjibtdavv8ebgtz5NQX5gKuhZIv32RdQTE1DTdQLcib+74vpprsjXvo
+      /+hz9EpXmbe54v67itmvqIEbuOXBuTwut1RVwpdvrqOguAZTVR60uaoW63PE8bq2nm/iygVQ
+      v5f3N/Xg4e0ttXwMcReFQH8eLVptN9zdmwlrct5mQfK1zE/J4j53e9gZQ4Cq6WGdh1oOHDjC
+      8YOLmZ3auNUx6CcMiqGmMKhhBDCgK89h4/tfcdPTd+P6p+vswtCQm8jcXcTddx3loPMdKLsU
+      sMW899fMFPJvfpRXZ/XGwRSLcPENtCWqc5P5vu80nvYEjfUOhZKEBEBfw89pb/D+voU8GfQH
+      mSn53Pzoq8zq7WAOe2JpY1Wt1OfJuMihrH93MR9bhOVxD/e0Us4VT4Kr0j/mh3Ez+edlhtrd
+      AoMYlpdMfG459dRTnqEitTiY4JEtn1NfnE2OdiADfZrZqdOhu84Fjx721Ncc45t9VyK0v4Da
+      A6h/C2VJQgIJlr/4Jxl+RM1PhosPliHrAlRVUdVKkYPknuzflkWpzgAGHaVZ29jvKWeQ9UF9
+      78LvVBZpuwpwVfS1OV+vvwa3Xq7YyQzoyo+RpS5qW1+q95P8nQcTx3khs95e8QvHynUYALrI
+      kGGgtvY8oEd/jRu9XO2QGXSUH8uirVW1Wh8g6+VNv+tu5LbolcQnWIVqLXDFI0Bezh/Me27Y
+      5RfkGckbq4t5Ysl9jLRMguOXmeP/ZjihInKCihPA4XEBrGzYEUNATBx5L09Duekx5gXvwH7A
+      ncz0d/mTPfprMBw+SO0dD9LXeqNsKCGKbWT9ZGDoUGxCIJlDb0Y9toD+rZTpqIhkmjaRtxcm
+      W02CFeYQy4IrdwT+wTNZfiyfgE0M7xUaQt0rC4k+cwGH3iOYrOgNFy7dF+3uAwx/4QW8Lr4a
+      /6+Qbe+/wclyHQaZA26+9zLnPmfAmdCQOl5ZGM2ZCw70HjEZ26rUqGbPti1LHQsvxRLRSn36
+      siwSPyxlpHIRd3e/uDHN8/dZDbozhgCVD6mpSqwHANNEWGl+EiT4X+XiCf/VQiyFEEiav88I
+      IBC0A2IEEEgaIQCBpBE5wQJJI+YA7cy5c+c6ugmCVhAhkEDSCAEIJI0QgEDSCAEIJM0VrAU6
+      gWrCBFRN1pw1v45f0BRN0nySLEsZZQ643hzOjFkheLZtGQugISkJoqIuaxW9wIorXgw3Ji6P
+      xmU4O4np3GuQOxlyotZEmdbq6ysp/Hw9Cdt6s/ShAR3dMMkgQqDOgl0PfO+/l8HaY5R1dFsk
+      RPtmsFftJe6JF0krPMt5e3eCopaxTOmPM1BfksHyha+ReayGent37v53IqP3jKPJG1V8lKSm
+      KnFpMX/YNrfY+hyfVnOSTaOVT0O4Zvu5/mgyCxYlkFtaA04DCFuyihfCvdr5C7Oi5jgZmz/i
+      m8JKLji4MvS+x5k60s20/r3mOBmbPybr5wp0BigoTKePYhyTH/DHTQacLeCT9Snkl5hycXv4
+      /otZltBKk0QSUUTJwfBHPikflxIweRznti1sDMcsuIexeHE41x/PYPNH31BYqceuhy+jpzxC
+      eH8noIyM97bz+zW/UVBYid6uB7eOjza3s4yMJA3yqHDcAWpyUC3dgn3kKqLktu0AoCyDFZnu
+      LI6Sm/69IrPxRiCPYo1NmGcV+hn+ID/lY0oDJjNu4A1Qnk9K4qfkn9aBgwf+D89gor9bQ95A
+      wYcLScy3JFy4t+f/p5bkBc+QP2wt//kgEOeqDJ6fFM1LHjt5658HiXs0lp/Hq9i1eRj250sp
+      qryOAePyyKOZJc7aZGa0mD+8m1XP7GPY2q/4INCJrlcjE6w+h7hoFRdmJZE1qS8cjmf6jGji
+      vXcwb/AVlt0S+koKP9/B8X4TmYiBn77K5rp7n+W12Q7I9JXkfPgp2bcoCeleRkb8VnQRc3hp
+      1ilSNsMjE2/i590f8/4WJ56dOAiZvSu3T1zCg16m3N7K3RtIPxzCVD+r6k5lEL/1AuOjI7jJ
+      DohagzwK0CSxoiyMxeHupgN1GpI+KWboY8uY5WGH/nQOmxK3oHkmCrkDUAd9Hn6WyNkOXKj8
+      gS3rPiRr4HxG26Rj1JDz0T76jfZrc9aXe9jixja0+J2dIiN+KxfGRxNxkx1QRsbGXabvzbcH
+      VBby+fqNfO25CFNRv1NW5tcQdpZlJLWjAKpz2fdjAJFrA3EzJf2inJDIhL050OdH9l07gbjo
+      YTgBdO3NAKfWivoz+cMWms9JNmF6uVejXnxQAhzex75r7yVuUl/sAQZHM+OuRFTZJ5g3+GrO
+      7jUkzdeQBGDnhJd8PMqJ3sARfszVkLNHwzaro+X+EOKuQTtkCjN8XYFTAMgcXPENn8U/VJ9y
+      mEH42YF253u8f7ikIbfXPawM/EwXlCZpPhr74Ty6fJrp4m+NnwsoG34PUR4Opro8grlneDa7
+      fga5H9C9LwM9TGmNsh638sDd/yWlGLASQE3OR+zrF8mCnpmmvlp6nzQfjfUGedRlfHVJzNfY
+      M/zR5UyzdOL3AgpcQ1ng28N0x+/hS0ToPt4o+J1w957AGc7Y98LqPvDXjejtx10sXJ3D44tC
+      GdmQDK+02t9aTrL1E6uOmMBbTYJtqKPOeSyLFo+jSf6H9kILSVrnOKcDJ+D3b7byg08kz0/1
+      MOX2apJYYTWxkEet4SGSWJusYUCUnFbuPZfNuXO14GC1oSafLXneTJrjDgW2x8qj1lwUAl1G
+      RfIo1jwESWuT0QyIQt6WTpwt49duN9LTalP7TYK7BRI0LI/k+FzK66G+PANVajHBwSNhcBBB
+      danExf9ITT3U15RyrKS6laJazx/u1tObGxzduf+tnVcnM2xwEEF1O1B9UsR54PzheBJ3ezJq
+      1F/1bPdmBvXYx5adRegMAHpqSvajKQY8/elT+AmpP5w27wODroLCtA/I7hXIYEy5va439jDl
+      9lacYO8PvzSpwUn+CFG9viEhQ0uTFGSbpvjhfiCdvad1GDCgO72X9APu+N2MpXJ0egADuqJv
+      SP6vC7f6Wk6uIX/LPnqNH3sZj3YvAyc5j0T14puEDLQGoKcffhW7SCusRA/oKwtJ21WBn19P
+      wMAfR4tw6N/XJo+4HUcATyLfWE3xE0u4b6RlEhzPsohuwEhiPohl+cInCU1snAS/6tVCQnCL
+      +cP1lGfFMevFo4x7NwXlYHu4Gq8l7TqSmHglCxZFEbLKPAmOjSe6veL/JjgQOGUKxe+t58XP
+      a9DLHHDto+CeR0YA7oydfR8Zmzew9EPLJNiVm0Mm8PRDA5EBniHB6Fe/yMLKCzh4+DNe7tlM
+      bq8Mz/DZjE5ay+b8uTzif0OTBHNTU+Q8NKmMze+/yBarSbDccpev+J71L2ZTowMH15sZGzWj
+      cV9ZNgV+i1jYLle/uRee4cwencTazfnMfcSfsdNDSUlcyZKExklwhDuUZaxiRWYZoGH+9sbz
+      xWrQdqZ9V4N29A9hFz3p6cQcSVnLyZB5XDyvFr8DCCRBra75966KEaCdEfkAnRsxAggkjRCA
+      QNKInGCBpBFzAIGkESGQQNIIAQgkjRCAQNJcvZTIrk4MuPMplr06noH/A0vsBNLgikeAMXF5
+      5OXlkbNrHXeWrCR6lXhqdHkIn+CO5KqFQF2dhqGcNoqq/PxmfMIELSJ8gjuU9psDVO0lblII
+      IwMCCAi+h3nJR60M63bz/MgAAgIsf42h1AnVhAan+fqjKiKDI4k/fN5cZByPhAYTEBBA8D3z
+      UOW3Zhj090D4BHcsVy1ar6/5EdWmbDxHzcAHLckLVlMX/RnZd7pBeQbPT1pIvNycUvibFm39
+      Xbycs4rwrs0notQfVTFt+m7u2rgJ5cCubbBV/TsifIL/N3yCMYVA0ck5RANUb2ffj90IHGBK
+      YcQtnLid4Q3H1ufn8+Mwf+Jaqb26+AS/OXrjc6PpoCtLi+yc1Gar2Dc4imcdAcdQJnssZ4Na
+      jlLRdP28k5ucO0d6IcOrRZ9gzYZYfgmL5bUIy1kl/Cd2A+diTf67zqHRKNTr+Mrjae52rWXf
+      hu8YND2UAotN6vU96efmiuZ0DXq9njOHUln/xS3ERrTFJ7ia7HVr+ePB55gut9zQ+nJvuC+f
+      q9SAI94jghjQzVJVP9xcNZyu0aPXn+FQ6nq+uOVyLJCaq0/Lt9s7wCe4Cd0CCRz8MptWbOHO
+      lQ/R1/48Zwv3cuja0QT5nGfv3jycB07ixlaKcB7zMi/nhBPzcgYBq8JxDgxiWFwy8bmjWBDo
+      TJU5K+ypVlwlOzfCJrUz2KS20wNLTyJffZnjMa8zJTiO89jT3TeYp5aNZmdMsPnVJ48TsMXq
+      lAkTIDXVKmW9KyNj4omcNp1olQ+blJfpKtnZabBJtXKKNBwk6QU1PxmGMtRmELC1SW1JAIPk
+      nmzZlkXAY6PMTvHb2O8ZxN3WB/W9C7/t6aTtKsc18G6sE3X1+mtw62OxST3J9+oi8GhDX6r3
+      k3zUg4lPN2OTauxFPzcHZM3YpPax2KSe/J62VtVqfTTapF4XPYfIW4+x4RIKvgIB+KBMbfmR
+      Z1evcJZuDmepzdYTqE5c/DY5sE5I91Gm0lBq14Eok/diSXF3Do5h866YP9/kToSwSZWkTarp
+      x7MTyuYF4CPeKSpogfaySf2Lf7NtadQYQ1ze33QmK/hbI5ZDCySNWAwnkDRCAAJJI9ZttjPi
+      rRCdGzECCCSNEIBA0ggBCCSNEIBA0ggBCCSNeArUoeg5tfcjPk4/yGmr14uPtrFt0fPbD7v4
+      es8Bjv1aSdX1o1m8uPO/jblzUcCWJB13PzICJ30hWz8/x/gH/ZEhfglud1p7DFqT8x4r8/oy
+      eUoovj26oCvKYv3Gg/g9NY8QF4AaNEmr+dLuDh64czi93a7neof2e9f+/y4GtFkqEtKOUmPX
+      l7Ann2Cs2bNACKCdaVkAZWS8vgOXJ5UEWlkK6TRJrDv1DxZFeENxGu/kD+Xx+/s1b14huGJE
+      CNRR6Ioocg1grIPtZgc/P1z3nOQs3nCylOqSIl5b8gsVOgN2PXz516xZhHjCye3v8cOtj3N/
+      P7M0DD/xseo0YXNGU2xyzWjwHtMkraAsbDHh7mCwshHt4uTDHdNnENHfiaZmG2VkrMjEfXEU
+      8ktZnhrKyU9J5NP80+i6OOFzx3RmRPS39R6zsT6V4eB6M+EzZhHiKeNswSesT8mnpEZv8kv+
+      1yxmhXhisjez6ou1lSoml0eNPMpketGirWzrbRcC6Ciqqjgrc296Z5d1QVZba3pFSi14BU/k
+      /qE34mRnQFeUyboPvqDfcxH0u/MW0rao0SkDcQB06n2cU0zBBShusdIzZH19Ev/HlhHZww6D
+      rogvVOkcmTeRQW1ueFPL0zNZX3PS/zGWRfbAzqCj6AsV6UfmMfGiQhutT3WczniPT3+uJsSz
+      O/autzNxyYN4OdmBvpLdG9I5HDLVxs2xdVqzlW297UIAHYWzM90NFzCArQgMFzA4OuII1OKI
+      q8eNONkByHDoG0ao+zucPAveLiGMvV7FvjOBjHY5y/ea6wiaaRlOijl+XI+8vx36mhJ+O2Pe
+      fLaAg7nZpOVmW1Xojl0ZDHLHbD1q41vKxcalTS1Pz1JwMJfstFxsSm0otJGyzBXMzwS4Hs+Q
+      h4kON12ddmjZ+d77HC4xpzHijpWraxs41rKtrJV7VHN2rUIAHYVDX/pW7ECt87edAxQUUNHv
+      H3QHcDxPZaUB3C0S0VNXdy329gAybgn2Ij3zJ0LCTnP4ejmjzIf5jR1J1rolzNeBg2sfel6A
+      wQB1dZz3m8qqGf7NzylsHNlNIZANzVqe1lF33o+pq2bgf4mJSsMIYNBRsT+ZTd/0Zs5oA99s
+      /QGfyOeZavYb1iStoKz1oi6iFVvZVtsufgfoQNy5444LfL4+g8JKPRab0fXbzhIY7A1Ad79B
+      VHyZSZHOAOip3J/Cl3W3MNAiGO9gAiv2sW3nT3gF39JwUcs8x/LUa6tYs2YVrz3/JKP7mHf0
+      HIRvaTqpP5hsRDHoqCjM58jZtrS3JcvTngzyLSU99QcqLXapFYXkt1aoTEYX4I8/zmLKD3bl
+      xh6m/OCKE3tpxtX1ErRiK9tq28UI0KE4jZzJLMNHfLxyCQmW3wFmzTE/AgVcRjHprhQSly7m
+      tK4LTl6BTHk8xMqE3YVRodfxfEY/Fnm3pUZvxs0MYX3iSpZ8oMNg54TX4LGMn9SGU1uxPPUe
+      N5OQ9YmsXPIBOoMdTl6DGdtMoY0hkAwHj5FMm9sPgJBgPatfXEjlBQc8/Mdj6+qqIWm+xsZh
+      vjFMcydMDq3byrbedvEYtJ1p3+XQek59sY6v3KKZGehw6cMFTRAjwN+VsgxWrPiG8yMieWac
+      uPj/LGIEaGdEQkznRkyCBZJGCEAgaUQIJJA0YgQQSBohAIGkEQIQSBohAIGkEQIQSBrxS3AH
+      olbNRmUx+7K8P39uaNP37LdcAiY7LcWlDxU0ixBAh6JAmWD229Kf4dC2d1ib4sXKyLanpwiu
+      DBECdRbsXBgy4UH8So5elleW4MoQI0BnpfooaYkbyTx0hgsObtz68NPMGtXTtOa/+ihpiUns
+      LCxHZ4Dop9zod9t9PDoxkJ4yWrY7NRvfqVCiVIDhbC6bkk5xe9T91KREN4ZjFswWozdYWY/a
+      uQwhbPoMIkzeq6S99Sm/XVPGgUNn0Nu54D9pgbmdWtJUahRKs0VpdTbrYpKxnx6PUmHbDsBk
+      X5ruSaxS0cTKFIWSBJswzyr0M5wld1MSp26P4n7f7vB7Lpve/Yj9pTpw6M2IKXOYFtizIVdC
+      syGad3MNlg6CUdBh5CUkGPMsH+oqjAdTlhmf33LSaDTWGwtSEoy7SmqN9eZ92fFrjTsrjUaj
+      sdS4Y9kyY8rB34219XnGhIQ8Y33t78aDO1YZX9x0yHT8uVPGE79UG+tMBRsrvnrTuP5AQ6XG
+      hDyjsa5ohzEubruxqK5Jo4wv7Sht/Hwuz5jw77XG3SW1xnpjvbG2ZLdx7b8TjHnnzG1Z8WZD
+      O+sq1MYPlrxqzCw370vYYTSV9H/G79a+Yvx8h6lu63Y0ULrD+JJlQ+kOY4J1G5p+c8YEUyeM
+      O+LijNsbOmH5biqMdUajsa7ioDFl2TJjY1Flxs+XNX7npTsSjGIE6FCszODsnPBWTGLetL7A
+      YQ7sU5O9S02K1dGKQAj1UFMybDpzhrgBptQpmYMbQyKiGbsumQIGI78WSr58k3UFxdQ0+EVr
+      QW5KGFSrZqO2D2D26sfoY/0OruY4okE74gGUvU1LrmW9Q3hgxLdkHgGFHHD2wddsdSpz8WfC
+      uO/4sAgbK8vq7I3s6f8oz/VKx9oSXa2ajY0VnkJJm1GrmK22J2D2ah6zdOJXDRq3MJ4b4mK6
+      47sM4cGwPbyq+ZUIz15ABRX2HlilCYsQqGOxmgTbUEed8zheePM+vC7eVXKhBePGc5yrhW5c
+      2u9XoUwgEhWvb1QzUKngajrNnjt3Dhtbyupckr/vy7QmBsJmp3mbEOgyKlIoSYgE1esbUQ9U
+      omhLJ6pOc/r6XvSy2iQmwZ2SQdziuofkL0805rgW56AuArxG0O/QJjbnl5r3gUFXzqHPEvjW
+      43b8MPv99rL4/R4jS13UpIZuipk85pHJ2rQSDE32WjdFjuf+bWSV6jBgQFeaxbb9nsgtD6oM
+      OnSWXOATX/HBHlcUgy0nV7M/+Ts8Jo67jEe7l0E3BTMf8yBzbRolBqCXHHl5Jp8dOoMe0J85
+      xGeZ5cjlvQADZwuP4ziwv80LAcQI0ClxJGj6dIreepuF2005rm79bmP8jJGAJ+PmPURaYjyL
+      15smwZpDbviOmUrM/b7IaKvfrwyviHmEqV5nQ+4CZgZ2b/5NEY4KIqdpSXx7IclWk2CF5S5f
+      ns3bC7+lRgcObr78SzmncZ92NweGv8AL7XL1m3vhFcG8MBWvb8hlwcxAxj0exqZ3l/LU2sZJ
+      8IOeoE1bztL004Ca2amN54vl0H9rOvqHsIue9HRiDn+4kuOhzzbxGRYhkEAS1NY2n5r6/9+q
+      /PvIIKCHAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='169'>
+      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
+      p0jFPEUq5v0fnlueBa1AiyMAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 5' width='192'>
+      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
+      xWKz2ZSCbjualkVRzJjNH91hVFXFYim7cbUQ15T3IFjLxHn7teeZKNNXlUIsRt4BGLvip7Vt
+      XTHbIkTJ5RmALLOzQYaHhpmcChS3RUKUUEGD4HQiim51Y//jY7+MAcRyoihKYYNgm9NdrLYI
+      cUOU4ZdgIUpHAiAMTQIgDE0CIAxNAiAMTQIgDE0CIAxNAiAMTQIgDE0CIAxNAiAMTQIgDE0C
+      IAxNAiAMTQIgDE0CIAxNAiAMTQIgDE0CIAxNAiAMTQIgDE0CIAxNAiAMTQIgDE0CIAxNAiAM
+      TQIgDE0CIAxNAiAMTQIgDE0CIAxNAiAMTQIgDE0CIAxNAiAMTQIgDE0CIAxNAiAMTQIgDE0C
+      IAxNAiAMTQIgDE0CIAzNcqMbsFi6rqPpOhPBKOeHppmPJAiE4ug61FQ6qaly0tHso7XBi8mk
+      oCjKjW6yWAaWRQBmQnFePT7A6f5x/NPhnP+72ufmzu3N3Ne5EV+Vs0QtFMuVouu6XqzCVFXF
+      YilepmKJNC8fH+DV4wNEE+nr+m2ly8a9t27gwf034bJbi9YmsXIoiqKUbQCm52P85JmTXBwO
+      FFROe1MN//j1O6ivcRelXWLlKNsADI7N8vgzJ7gaiBShVVDncfGjb+1lY1NNUcoTK4OiKErZ
+      vQWajyT5ybMni3bxAwRCcR7/7XFm5uNFK1OsDGUVgHQmy789f4rRBQa6+RgPRvn350+RzmSL
+      XrZYvsoqAEc+vMKZgYklK//c4BS/77pMEZ/6xDJXNgHIqFmePdzDUl+bLxztI55Sl7YSsWyU
+      TQCOdvuZCEaXvJ6ZUJwj50aWvB6xPJRFADRd5+TFsZLV90H/BJomj0GiTAIQjac5PzRdsvp6
+      RgKE46mS1SfKV1kEYCYUJ57KlKy+eCrD1OzSP26J8pd3AEYv93D8+Akm5wp/tz4XSRRcxvXX
+      mSx5naL85P3Ztq5hDeFomkwmjaY5PpqtqWmo6vW/YZm/AQGYmovm1VaxsuQdAF0x4amqIJFI
+      fTz1WFEUTKbr71TMZnO+zcib3WbJq61iZck7ANNjV5icS9DW0YSifDT/XtO0vC6q6kpHvs3I
+      W02lUwIg8g9AS/tWWorUiFqPq0glLd6NCJ0oP2VxC6zzVtBQwunKtR4Xq2srS1afKF9lEQCr
+      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
+      6gAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
