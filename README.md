@@ -11,3 +11,4 @@ https://docs.google.com/forms/d/e/1FAIpQLSdW3NVGZd6xHEd_H1YdVAmdBzzUU-94LI0f8FtR
 Большая часть респондентов считает, что вести документацию о том как работает системы важно, но нету времени на ведения постоянного учета.
 
 
+ссылка на tableau анализ ответов https://public.tableau.com/app/profile/sasha.li5509/viz/Book1_17424987589960/Dashboard1?publish=yes
